@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://bx37dpqe83mym"]
+[gd_scene load_steps=8 format=3 uid="uid://bc2nnmt37md1h"]
 
 [ext_resource type="Texture2D" uid="uid://b2j2okqp6frhb" path="res://assets/16x16-RPG-characters/sprites/new-style/chibi-layered.png" id="1_k30my"]
 
@@ -46,7 +46,9 @@ radius = 4.12311
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_363rs")
 animation = &"walk forward"
-frame_progress = 0.81565
+autoplay = "walk forward"
+frame = 1
+frame_progress = 0.652777
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, 2)
