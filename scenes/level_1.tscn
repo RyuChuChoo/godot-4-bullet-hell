@@ -1,9 +1,8 @@
 [gd_scene load_steps=4 format=3 uid="uid://bdnrjq7vvkrfq"]
 
-[ext_resource type="Texture2D" path="res://assets/Sprites/tiles_free.png" id="1_yp8w2"]
+[ext_resource type="PackedScene" uid="uid://bx37dpqe83mym" path="res://scenes/main_character.tscn" id="1_17jmh"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ei0nw"]
-texture = ExtResource("1_yp8w2")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -167,3 +166,6 @@ zoom = Vector2(4, 4)
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_o0hlv")
 format = 2
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("1_17jmh")]
+position = Vector2(0, -2)
