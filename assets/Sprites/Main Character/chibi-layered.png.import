@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dkheiaigvjlui"
-path="res://.godot/imported/chibi-layered.png-808cd622b03926cf760f530f7780450f.ctex"
+path="res://.godot/imported/chibi-layered.png-076b6121386867edd3f349f943c0a5ac.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/16x16-RPG-characters/16x16-RPG-characters/sprites/new-style/chibi-layered.png"
-dest_files=["res://.godot/imported/chibi-layered.png-808cd622b03926cf760f530f7780450f.ctex"]
+source_file="res://assets/Sprites/Main Character/chibi-layered.png"
+dest_files=["res://.godot/imported/chibi-layered.png-076b6121386867edd3f349f943c0a5ac.ctex"]
 
 [params]
 

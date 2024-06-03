@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bvehhvys7g5kn"
-path="res://.godot/imported/Crab_AttackDown1.png-c357c785db24ab4485e9aeabce7f9c67.ctex"
+path="res://.godot/imported/Crab_AttackDown1.png-a4e658346797e35ceeaf98620aeae70a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Crab Enemy Camacebra Games/Attack/AttackDown/Crab_AttackDown1.png"
-dest_files=["res://.godot/imported/Crab_AttackDown1.png-c357c785db24ab4485e9aeabce7f9c67.ctex"]
+source_file="res://assets/Sprites/Crab Enemy Camacebra Games/Attack/AttackDown/Crab_AttackDown1.png"
+dest_files=["res://.godot/imported/Crab_AttackDown1.png-a4e658346797e35ceeaf98620aeae70a.ctex"]
 
 [params]
 
