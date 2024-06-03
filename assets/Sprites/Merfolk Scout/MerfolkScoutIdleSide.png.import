@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dx35nxmy1briy"
-path="res://.godot/imported/MerfolkScoutIdleSide.png-81d5aac858de0021bac6e686b2454125.ctex"
+path="res://.godot/imported/MerfolkScoutIdleSide.png-d1c8756015189be24cd0956a1e878d90.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Humanoid II Basic Asset Pack/Merfolk Scout/MerfolkScoutIdleSide.png"
-dest_files=["res://.godot/imported/MerfolkScoutIdleSide.png-81d5aac858de0021bac6e686b2454125.ctex"]
+source_file="res://assets/Sprites/Merfolk Scout/MerfolkScoutIdleSide.png"
+dest_files=["res://.godot/imported/MerfolkScoutIdleSide.png-d1c8756015189be24cd0956a1e878d90.ctex"]
 
 [params]
 

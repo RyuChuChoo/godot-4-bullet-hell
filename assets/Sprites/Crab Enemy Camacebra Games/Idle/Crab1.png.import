@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://otvlnnrcope8"
-path="res://.godot/imported/Crab1.png-e9d6766c2319aee924640523c87cc8ea.ctex"
+path="res://.godot/imported/Crab1.png-e7dca0c8ab9a4463af8a146c499e3c3f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Crab Enemy Camacebra Games/Idle/Crab1.png"
-dest_files=["res://.godot/imported/Crab1.png-e9d6766c2319aee924640523c87cc8ea.ctex"]
+source_file="res://assets/Sprites/Crab Enemy Camacebra Games/Idle/Crab1.png"
+dest_files=["res://.godot/imported/Crab1.png-e7dca0c8ab9a4463af8a146c499e3c3f.ctex"]
 
 [params]
 

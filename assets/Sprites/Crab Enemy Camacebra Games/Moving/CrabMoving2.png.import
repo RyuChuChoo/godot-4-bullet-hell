@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bjh8mgvxf5byj"
-path="res://.godot/imported/CrabMoving2.png-8cab108af4e4406931b011b644e85b67.ctex"
+path="res://.godot/imported/CrabMoving2.png-2c6017ab30cdefeffe2aefa2d6ba00a3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Crab Enemy Camacebra Games/Moving/CrabMoving2.png"
-dest_files=["res://.godot/imported/CrabMoving2.png-8cab108af4e4406931b011b644e85b67.ctex"]
+source_file="res://assets/Sprites/Crab Enemy Camacebra Games/Moving/CrabMoving2.png"
+dest_files=["res://.godot/imported/CrabMoving2.png-2c6017ab30cdefeffe2aefa2d6ba00a3.ctex"]
 
 [params]
 

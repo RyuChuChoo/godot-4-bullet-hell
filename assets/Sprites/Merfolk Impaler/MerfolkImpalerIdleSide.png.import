@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://byyxi311ksjkt"
-path="res://.godot/imported/MerfolkImpalerIdleSide.png-1af5153763fc15df4a9798d901798699.ctex"
+path="res://.godot/imported/MerfolkImpalerIdleSide.png-59711a739a5a0cd4cfa3173253b5b2d1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Humanoid II Basic Asset Pack/Merfolk Impaler/MerfolkImpalerIdleSide.png"
-dest_files=["res://.godot/imported/MerfolkImpalerIdleSide.png-1af5153763fc15df4a9798d901798699.ctex"]
+source_file="res://assets/Sprites/Merfolk Impaler/MerfolkImpalerIdleSide.png"
+dest_files=["res://.godot/imported/MerfolkImpalerIdleSide.png-59711a739a5a0cd4cfa3173253b5b2d1.ctex"]
 
 [params]
 
