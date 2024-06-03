@@ -1,11 +1,7 @@
 [gd_scene load_steps=9 format=3 uid="uid://bc2nnmt37md1h"]
 
-<<<<<<< HEAD
-[ext_resource type="Texture2D" path="res://assets/16x16-RPG-characters/sprites/new-style/chibi-layered.png" id="1_k30my"]
-=======
 [ext_resource type="Texture2D" uid="uid://dkheiaigvjlui" path="res://assets/Sprites/Main Character/chibi-layered.png" id="1_k30my"]
 [ext_resource type="Script" path="res://scripts/main_character.gd" id="1_qs2gi"]
->>>>>>> 77d1cbfbcb101c3f1a6a568fd593f0d64f18f30d
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_7oyce"]
 atlas = ExtResource("1_k30my")
