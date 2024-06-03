@@ -49,7 +49,7 @@ script = ExtResource("1_v5u8e")
 sprite_frames = SubResource("SpriteFrames_363rs")
 animation = &"walk forward"
 autoplay = "walk forward"
-frame_progress = 0.289319
+frame_progress = 0.797635
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, 2)
