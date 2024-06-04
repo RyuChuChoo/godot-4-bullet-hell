@@ -1,4 +1,4 @@
-[gd_scene load_steps=21 format=3 uid="uid://cl8urcgb2kxrv"]
+[gd_scene load_steps=22 format=3 uid="uid://cl8urcgb2kxrv"]
 
 [ext_resource type="Texture2D" uid="uid://otvlnnrcope8" path="res://assets/Sprites/Crab Enemy Camacebra Games/Idle/Crab1.png" id="1_g5yvk"]
 [ext_resource type="Script" path="res://scripts/enemy_crab_movement.gd" id="1_rgrfq"]
@@ -87,7 +87,11 @@ animations = [{
 "speed": 5.0
 }]
 
+[sub_resource type="CircleShape2D" id="CircleShape2D_744vn"]
+radius = 5.0
+
 [node name="crab" type="CharacterBody2D" groups=["Enemy"]]
+collision_mask = 2
 script = ExtResource("1_rgrfq")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
@@ -96,3 +100,6 @@ sprite_frames = SubResource("SpriteFrames_tmd5y")
 animation = &"moving"
 autoplay = "moving"
 frame_progress = 0.980707
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_744vn")

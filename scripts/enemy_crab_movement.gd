@@ -1,7 +1,5 @@
 extends CharacterBody2D
 
-@onready var player := $main_character
-
 var speed = 25
 var target: main_character
 
