@@ -69,7 +69,7 @@ texture = ExtResource("2_psthi")
 3:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(3.5, -8, 8, -8, 8, 8, -8, 8, -8, 2.875, 3, 2.375)
 
 [sub_resource type="TileSet" id="TileSet_1vw1w"]
-physics_layer_0/collision_layer = 8
+physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_f6fa7")
 
 [node name="Level 1" type="Node2D"]
@@ -86,4 +86,5 @@ layer_0/tile_data = PackedInt32Array(-262154, 65536, 2, -196618, 65536, 2, -1310
 [node name="player" parent="." instance=ExtResource("1_17jmh")]
 
 [node name="crab" parent="." instance=ExtResource("3_tyuqt")]
-position = Vector2(-135, -39)
+position = Vector2(-137, -42)
+collision_layer = 2
