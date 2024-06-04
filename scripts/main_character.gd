@@ -1,5 +1,6 @@
 extends CharacterBody2D
 
+class_name main_character
 
 const SPEED = 150.0
 const ACCEL = 1.0
