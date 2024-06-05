@@ -1,8 +1,8 @@
-[gd_scene load_steps=6 format=3 uid="uid://bdnrjq7vvkrfq"]
+[gd_scene load_steps=7 format=3 uid="uid://bdnrjq7vvkrfq"]
 
+[ext_resource type="Script" path="res://scripts/monsterspawn.gd" id="1_8uuu0"]
 [ext_resource type="PackedScene" uid="uid://bc2nnmt37md1h" path="res://scenes/player.tscn" id="1_17jmh"]
 [ext_resource type="Texture2D" uid="uid://b8dwx48wv64qu" path="res://assets/Sprites/Tiles/Beach tile set.png" id="2_psthi"]
-[ext_resource type="PackedScene" uid="uid://cl8urcgb2kxrv" path="res://scenes/crab.tscn" id="3_tyuqt"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_f6fa7"]
 texture = ExtResource("2_psthi")
@@ -72,7 +72,14 @@ texture = ExtResource("2_psthi")
 physics_layer_0/collision_layer = 8
 sources/0 = SubResource("TileSetAtlasSource_f6fa7")
 
+[sub_resource type="Curve2D" id="Curve2D_dwwet"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -172, -101, 0, 0, 0, 0, -167, 101, 0, 0, 0, 0, 168, 101, 0, 0, 0, 0, 170, -104, 0, 0, 0, 0, -172, -101)
+}
+point_count = 5
+
 [node name="Level 1" type="Node2D"]
+script = ExtResource("1_8uuu0")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 scale = Vector2(32, 32)
@@ -85,5 +92,15 @@ layer_0/tile_data = PackedInt32Array(-262154, 65536, 2, -196618, 65536, 2, -1310
 
 [node name="player" parent="." instance=ExtResource("1_17jmh")]
 
-[node name="crab" parent="." instance=ExtResource("3_tyuqt")]
-position = Vector2(-135, -39)
+[node name="Path2D" type="Path2D" parent="."]
+curve = SubResource("Curve2D_dwwet")
+
+[node name="PathFollow2D" type="PathFollow2D" parent="Path2D"]
+unique_name_in_owner = true
+position = Vector2(-172, -101)
+rotation = 1.54605
+
+[node name="Timer" type="Timer" parent="."]
+autostart = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
