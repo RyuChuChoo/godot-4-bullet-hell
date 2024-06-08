@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=3 uid="uid://jb4esqudb1xq"]
+
+[ext_resource type="Texture2D" uid="uid://d2s1bj6rxswuy" path="res://assets/Sprites/Weapons/watergun.png" id="1_dhrrw"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_vvbaa"]
+radius = 62.0322
+
+[node name="Watergun" type="Area2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_vvbaa")
+
+[node name="WeaponPivot" type="Marker2D" parent="."]
+
+[node name="Watergun" type="Sprite2D" parent="WeaponPivot"]
+position = Vector2(13, 6)
+scale = Vector2(0.625, 0.625)
+texture = ExtResource("1_dhrrw")
+
+[node name="ShootingPoint" type="Marker2D" parent="WeaponPivot/Watergun"]
+position = Vector2(7, -2)
